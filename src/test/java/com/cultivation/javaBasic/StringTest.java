@@ -67,7 +67,7 @@ class StringTest {
 
         // TODO: Take part of the original string according to expectation.
         // <--start
-        final String partOfString = null;
+        final String partOfString = originalString.replace("Java ", "");
         // --end-->
 
         final String expectedString = "is great";

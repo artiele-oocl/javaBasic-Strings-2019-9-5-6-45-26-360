@@ -28,3 +28,10 @@ We can check this in three different way: using method equal(), method hashCode(
 2. Same as above.
 3. Same as above.
 4. None.
+
+#### should_taken_string_apart
+1. This test is about familiarity of method replace(). 
+2. Test failed because string is not null.
+3. I corrected it that way because an already existing string utility method can be reused without unnecessarily creating 
+a new method of my own.
+4. None.
