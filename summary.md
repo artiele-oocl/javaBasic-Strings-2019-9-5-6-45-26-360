@@ -78,3 +78,10 @@ https://www.tutorialspoint.com/convert-string-to-utf-8-bytes-in-java
 2. Test failed because it is not null.
 3. I corrected it that way because it automatically converts unicode to characters.
 4. None.
+
+#### should_reverse_a_string
+1. Test is about reversing a string.
+https://www.tutorialspoint.com/java/lang/stringbuilder_reverse.htm
+2. Test failed because it is not null.
+3. I corrected it that way because an already existing util from StringBuilder is readily available. No need to reinvent the wheel.
+4. None.
