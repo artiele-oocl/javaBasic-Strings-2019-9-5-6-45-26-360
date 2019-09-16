@@ -59,3 +59,15 @@ a new method of my own.
 2. Test failed because it is not expecting null object.
 3. I corrected it that way because it is an already existing utility method of string object.
 4. None.
+
+#### should_create_ascii_art
+??? skipped for the meantime ???
+??? skipped for the meantime ???
+??? skipped for the meantime ???
+??? skipped for the meantime ???
+
+#### should_calculate_checksum_of_a_string
+1. Test is about getting the checksum of a string by getting the associated ASCII counterpart of a character.
+2. Test failed because it is not the total checksum.
+3. I corrected it that way because I know i had to loop over the string to get associated integer value of each character.
+4. None.
