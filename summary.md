@@ -41,3 +41,9 @@ a new method of my own.
 2. Test failed because string is not null.
 3. I corrected it that way because it is an already existing utility method for object String.
 4. None.
+5. What if the input arguments is out of range of the string?
+- It reports an exception: java.lang.StringIndexOutOfBoundsException
+6. What will happen if the the starting index is greater than the ending index?
+- It reports an exception: java.lang.StringIndexOutOfBoundsException because it cannot find negative index.
+7. What will happen if the input string is of null reference?
+- It reports an exception: java.lang.NullPointerException because it is pointing to a null object.
