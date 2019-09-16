@@ -53,3 +53,9 @@ a new method of my own.
 2. Test failed because it is not expecting null object.
 3. I corrected it that way because it is an already existing utility method of string object.
 4. None.
+
+#### should_break_string_into_words_customized
+1. Test is about splitting string object using split().
+2. Test failed because it is not expecting null object.
+3. I corrected it that way because it is an already existing utility method of string object.
+4. None.
