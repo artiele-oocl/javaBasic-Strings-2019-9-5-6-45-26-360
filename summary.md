@@ -16,3 +16,13 @@ https://www.baeldung.com/java-immutable-object
 If two objects are not pointing to the same location in memory, then those two objects are different.
 We can check this in three different way: using method equal(), method hashCode(), or operator double equal "==".
 4. None.
+
+#### all_modification_method_will_create_new_string
+1. The knowledge point of this test is about familiarity with the difference between value comparison and object comparison.
+This means that assigning a string to another string does not make them occupy the same address in memory.
+https://www.baeldung.com/java-immutable-object
+2. Test failed because output is not empty.
+3. I corrected it that way because the purpose of this test is to check if the two objects are not the same object.
+If two objects are not pointing to the same location in memory, then those two objects are different.
+We can check this in three different way: using method equal(), method hashCode(), or operator double equal "==".
+4. None.
