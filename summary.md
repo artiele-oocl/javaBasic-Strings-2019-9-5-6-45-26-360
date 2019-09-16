@@ -71,3 +71,10 @@ a new method of my own.
 2. Test failed because it is not the total checksum.
 3. I corrected it that way because I know i had to loop over the string to get associated integer value of each character.
 4. None.
+
+#### should_convert_unicode_escape
+1. Test is about converting unicode.
+https://www.tutorialspoint.com/convert-string-to-utf-8-bytes-in-java
+2. Test failed because it is not null.
+3. I corrected it that way because it automatically converts unicode to characters.
+4. None.
