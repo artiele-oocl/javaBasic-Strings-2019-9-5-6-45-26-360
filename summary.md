@@ -47,3 +47,9 @@ a new method of my own.
 - It reports an exception: java.lang.StringIndexOutOfBoundsException because it cannot find negative index.
 7. What will happen if the input string is of null reference?
 - It reports an exception: java.lang.NullPointerException because it is pointing to a null object.
+
+#### should_break_string_into_words
+1. Test is about splitting string object using split().
+2. Test failed because it is not expecting null object.
+3. I corrected it that way because it is an already existing utility method of string object.
+4. None.
