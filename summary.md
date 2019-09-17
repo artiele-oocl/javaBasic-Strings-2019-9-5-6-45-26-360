@@ -85,3 +85,13 @@ https://www.tutorialspoint.com/java/lang/stringbuilder_reverse.htm
 2. Test failed because it is not null.
 3. I corrected it that way because an already existing util from StringBuilder is readily available. No need to reinvent the wheel.
 4. None.
+
+#### should_compare_string_with_different_cases
+1. Test is about comparing strings of different cases.
+https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#contentEquals-java.lang.CharSequence-
+2. Test failed because it is not empty.
+3. I corrected it that way because I am comparing a sequence of character.
+I was also able to realize the difference between String.equals() and String.contentEquals():
+"The big difference is that equals() will only work with another String, while contentEquals() would work on any CharacterSequence (like StringBuilder)."
+This means that I can use contentEquals() since String is an implementation of CharacterSequence.
+4. None.
