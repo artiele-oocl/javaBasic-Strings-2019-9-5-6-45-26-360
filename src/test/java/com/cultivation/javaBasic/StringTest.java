@@ -133,8 +133,19 @@ class StringTest {
         // TODO: Create string using StringBuilder
         // <--Start
         StringBuilder builder = new StringBuilder();
+        for (int i = 0; i < height; i++) {
+            builder.append("|");
+            for (int j = 0; j < width-1; j++) {
+                if (j == width-2) {
+                    builder.append("|\n");
+                } else if (i == height/2) {
+                    builder.append(" ");
+                } else {
+                    builder.append("-");
+                }
+            }
+        }
         // --End-->
-
         final String expected =
             "|---|\n" +
             "|   |\n" +

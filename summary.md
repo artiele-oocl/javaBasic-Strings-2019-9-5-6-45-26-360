@@ -61,10 +61,10 @@ a new method of my own.
 4. None.
 
 #### should_create_ascii_art
-??? skipped for the meantime ???
-??? skipped for the meantime ???
-??? skipped for the meantime ???
-??? skipped for the meantime ???
+1. Test is about string manipulation given some constraints.
+2. Test failed because it is not empty.
+3. I corrected it that way because I know i have to loop over given height and width constraints.
+4. None.
 
 #### should_calculate_checksum_of_a_string
 1. Test is about getting the checksum of a string by getting the associated ASCII counterpart of a character.
