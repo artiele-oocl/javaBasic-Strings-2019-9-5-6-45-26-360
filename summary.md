@@ -95,3 +95,9 @@ I was also able to realize the difference between String.equals() and String.con
 "The big difference is that equals() will only work with another String, while contentEquals() would work on any CharacterSequence (like StringBuilder)."
 This means that I can use contentEquals() since String is an implementation of CharacterSequence.
 4. None.
+
+#### should_format_string
+1. Test is about string format conversions.
+2. Test failed because it is not empty.
+3. I corrected it that way based on below list of string format conversion.
+4. None.
